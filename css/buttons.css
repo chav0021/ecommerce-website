@@ -9,11 +9,11 @@ Lightest Green: #d5e494 rgba(213,228,148,1)
 .btn:link,
 .btn:visited {
     display: inline-block;
-    background-color: #68446e;
+    background-color: #dac659;
     color: #fff;
     padding: 0.35em 0.85em;
     border-radius: 4px;
-    box-shadow: 0px 1px #0a2d43,0px 2px #0a2d43,0px 3px #0a2d43,0px 4px #0a2d43;
+    box-shadow: 0px 1px #8fa158,0px 2px #8fa158,0px 3px #8fa158,0px 4px #8fa158;
     border-bottom: 0;
 }
 
