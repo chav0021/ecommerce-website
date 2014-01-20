@@ -228,3 +228,8 @@ blockquote p {
 cite {
     float:right;
 }
+
+.flex-img {
+	width: 100;
+	display: block;
+}

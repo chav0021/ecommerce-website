@@ -1,0 +1,17 @@
+/*
+  Colour Palette
+  - Background beige: #f2f1ed - rgb(242, 241, 237)
+  - Heading green: #5d8432 - rgb(93,132,50)
+  - Mark light green: #e3f595 - rgb(227,245,149);
+  - Link purple: #793284 - rgb(121,50,132)
+  - Link desaturated purple: #68446e - rgb(104,68,110)
+  - Link magenta: #b42885 - rgb(180,40,133)
+  - Light brown: #c7c0ae - rgb(199, 192, 174)
+  - Light-light brown: #eae8e1 - rgb(234, 232, 225)
+ */
+
+.product {
+	background-color: #eae8e1;
+	padding: 1em;
+	border-radius: 8px;
+}
