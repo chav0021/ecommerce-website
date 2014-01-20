@@ -1,0 +1,230 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*Colors:
+Dark Green: #8fa158 rgba(143,161,88,1)
+Light Green: #dac659 rgba(218,198,89,1)
+Lightest Green: #d5e494 rgba(213,228,148,1)*/
+
+html {
+  font: normal 85%/1.5 'Lato',serif; /* 16px/24px */
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 45rem;
+}
+
+::selection {
+    background-color: rgba(213,228,148,.8);
+    color: black;
+}
+
+h1, h2, h3, h4, h5, h6,
+p, ul, ol, dl,
+blockquote, table, hr {
+  margin: 0 0 1.5rem;
+}
+
+.yotta {
+  font-size: 3.5832rem;
+  line-height: 1.2559;
+}
+
+.zetta {
+  font-size: 2.9860rem;
+  line-height: 1.0047;
+}
+
+h1, .exa {
+  font-size: 2.4883rem;
+  line-height: 1.2056;
+}
+
+h2, .peta {
+  font-size: 2.0736rem;
+  line-height: 1.4468;
+}
+
+h3, .tera {
+  font-size: 1.7280rem;
+  line-height: 1.7361;
+}
+
+h4, .giga {
+  font-size: 1.4400rem;
+  line-height: 1.0417;
+}
+
+h5, .mega {
+  font-size: 1.2000rem;
+  line-height: 1.2500;
+}
+
+h6, .kilo {
+  font-size: 1.0000rem;
+  line-height: 1.5000;
+}
+
+small, .milli, caption, th, cite {
+  font-size: 0.8333rem;
+  line-height: 1.8000;
+}
+
+.micro, sub, sup {
+  font-size: 0.6944rem;
+  line-height: 2.1600;
+}
+
+h1, h2, h3, h4, h5, h6,
+.brand, dt, th, cite {
+    color: #8fa158;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.brand-face {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.brand-color, strong, b {
+    color: #8fa158;
+}
+
+a,
+a:link {
+    text-decoration:none;
+    color: #8fa158;
+    border-bottom: 0.1em solid rgba(166,186,76,.5);
+    transition: all 200ms linear;
+}
+
+a:hover,
+a:active,
+a:visited,
+a:focus {
+    color: #dac659;
+    padding-bottom: 0.1em;
+    border-bottom-color: rgba(218,198,89,.8);
+}
+
+ul {
+    list-style-type:none;
+}
+
+ul li {
+    position: relative;
+}
+
+ul li:before {
+    content: "•";
+    color: #d5e494;
+    font-size: 0.1em;
+    position: absolute;
+    left: -1.95em;
+    top: 0.43em;
+}
+
+hr {
+    font-size: 2em;
+    line-height: 1;
+    text-align: center;
+    margin: 1em 0 2em;
+    border: 0;
+    padding: 0;
+    height: 0;
+    clear: both;
+    display: block;
+}
+
+hr::after {
+    content: "···";
+    color: #d5e494;
+    letter-spacing: 1em;
+    padding-left: 1em;
+    height: 0;
+}
+
+dl {
+    margin-left:-1.25rem;
+}
+
+dt {
+    margin: 0.8em 0 0 3rem;
+    font-size: 0.8333rem;
+    line-height: 1.3000;
+}
+
+mark {
+    background-color:#d5e494;
+    padding: 0 0.22em;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title], time[datetime] {
+    border-bottom:1px dotted #8fa158;
+    cursor:help;
+}
+
+time[datetime] {
+    cursor:pointer;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+thead {
+    border-bottom: solid 1px #8fa158;
+}
+
+thead th {
+    text-align:center;
+}
+
+tbody th, thead th:first-child {
+    border-right: solid 1px #8fa158;
+    padding-right: 0.85em;
+}
+
+th {
+  text-align:right;
+}
+
+td {
+    padding: 0.3em 1em;
+}
+
+caption {
+    text-align:left;
+    caption-side:bottom;
+    padding-top: .5em;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+blockquote {
+  border-left: 8px solid #d5e494;
+  margin: 0 1.5em;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote p {
+  display: inline;
+}
+
+cite {
+    float:right;
+}
