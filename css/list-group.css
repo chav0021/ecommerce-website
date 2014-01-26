@@ -20,6 +20,7 @@
 
 .list-group-item {
     display: block;
+	padding: 0 1em;
 }
 
 .lg-inline-item {
