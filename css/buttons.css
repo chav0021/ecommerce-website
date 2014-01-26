@@ -1,25 +1,51 @@
-/*
-Colors:
-Dark Green: #8fa158 rgba(143,161,88,1)
-Light Green: #dac659 rgba(218,198,89,1)
-Lightest Green: #d5e494 rgba(213,228,148,1)
+/*Colors:
+Body Black: #08060e
+Charcoal: #333031
+Semi-transparent charcoal:  color: rgba(8, 6, 14, 0.3)
+Selection grey: rgba(181, 181, 181, 0.3)
 */
 
 .btn,
 .btn:link,
 .btn:visited {
+	letter-spacing: 0.05em;
     display: inline-block;
-    background-color: #dac659;
+    background-color: #333031;
+	text-transform: uppercase;
     color: #fff;
-    padding: 0.35em 0.85em;
-    border-radius: 4px;
-    box-shadow: 0px 1px #8fa158,0px 2px #8fa158,0px 3px #8fa158,0px 4px #8fa158;
+    padding: 0.5em 0.85em;
+    border-radius: 1px;
     border-bottom: 0;
+	-webkit-transition: all 400ms ease-in-out;
+	transition: all 400ms ease-in-out;
+}
+
+.btn:hover,
+.btn:active,
+btn:focus {
+    box-shadow: inset 0px 0px 0px 2em #fff;
+	color: #333031;
 }
 
 .btn-alt,
 .btn-alt:link, 
 .btn-alt:visited {
-    background-color: #5d8432;
-    box-shadow: 0px 1px #0a2d43,0px 2px #0a2d43,0px 3px #0a2d43,0px 4px #0a2d43;
+	color: #333031;
+    background: none;
+	border: solid 0.08em #333031;
+}
+
+.btn-alt:hover,
+.btn-alt:active,
+.btn-alt:focus {
+	box-shadow: inset 0px 0px 0px 2em #333031;
+	color: #FFF;
+}
+
+button {
+	-webkit-appearance:none;
+	appearance: none;
+	box-shadow:none;
+	border: none;
+	outline:none;
 }

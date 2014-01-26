@@ -2,12 +2,15 @@
 /* CSS Document */
 
 /*Colors:
-Dark Green: #8fa158 rgba(143,161,88,1)
-Light Green: #dac659 rgba(218,198,89,1)
-Lightest Green: #d5e494 rgba(213,228,148,1)*/
+Body Black: #08060e
+Charcoal: #333031
+Semi-transparent charcoal:  color: rgba(8, 6, 14, 0.3)
+Selection grey: rgba(181, 181, 181, 0.3)
+*/
 
 html {
-  font: normal 85%/1.5 'Lato',serif; /* 16px/24px */
+   font: normal 110%/1.5 'Lato',serif; /* 16px/24px */
+	color: #08060e;
 }
 
 body {
@@ -17,7 +20,7 @@ body {
 }
 
 ::selection {
-    background-color: rgba(213,228,148,.8);
+    background-color: rgba(181, 181, 181, 0.3);
     color: black;
 }
 
@@ -79,9 +82,10 @@ small, .milli, caption, th, cite {
 
 h1, h2, h3, h4, h5, h6,
 .brand, dt, th, cite {
-    color: #8fa158;
+    color: #333031;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
+	letter-spacing: 0.07em;
 }
 
 .brand-face {
@@ -90,14 +94,14 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .brand-color, strong, b {
-    color: #8fa158;
+    color: #333031;
 }
 
 a,
 a:link {
     text-decoration:none;
-    color: #8fa158;
-    border-bottom: 0.1em solid rgba(166,186,76,.5);
+    color: #08060e;
+    border-bottom: 0.1em solid rgba(8, 6, 14, 0.1);
     transition: all 200ms linear;
 }
 
@@ -105,9 +109,8 @@ a:hover,
 a:active,
 a:visited,
 a:focus {
-    color: #dac659;
-    padding-bottom: 0.1em;
-    border-bottom-color: rgba(218,198,89,.8);
+   color: #08060e;
+	border-bottom: 0.13em solid rgba(8, 6, 14, 0.3);
 }
 
 ul {
@@ -120,7 +123,7 @@ ul li {
 
 ul li:before {
     content: "•";
-    color: #d5e494;
+    color: rgba(8, 6, 14, 0.3);
     font-size: 0.1em;
     position: absolute;
     left: -1.95em;
@@ -141,7 +144,7 @@ hr {
 
 hr::after {
     content: "···";
-    color: #d5e494;
+    color: rgba(8, 6, 14, 0.3);
     letter-spacing: 1em;
     padding-left: 1em;
     height: 0;
@@ -152,13 +155,13 @@ dl {
 }
 
 dt {
-    margin: 0.8em 0 0 3rem;
+    margin: 0.8em 0 0 2.3rem;
     font-size: 0.8333rem;
     line-height: 1.3000;
 }
 
 mark {
-    background-color:#d5e494;
+    background-color:rgba(8, 6, 14, 0.3);
     padding: 0 0.22em;
     color:#000; 
     font-style:italic;
@@ -170,7 +173,7 @@ del {
 }
 
 abbr[title], dfn[title], time[datetime] {
-    border-bottom:1px dotted #8fa158;
+    border-bottom:1px dotted rgba(8, 6, 14, 0.3);
     cursor:help;
 }
 
@@ -184,7 +187,7 @@ table {
 }
 
 thead {
-    border-bottom: solid 1px #8fa158;
+    border-bottom: solid 1px rgba(8, 6, 14, 0.3);
 }
 
 thead th {
@@ -192,7 +195,7 @@ thead th {
 }
 
 tbody th, thead th:first-child {
-    border-right: solid 1px #8fa158;
+    border-right: solid 1px rgba(8, 6, 14, 0.3);
     padding-right: 0.85em;
 }
 
@@ -215,7 +218,7 @@ input, select {
 }
 
 blockquote {
-  border-left: 8px solid #d5e494;
+  border-left: 8px solid rgba(8, 6, 14, 0.3);
   margin: 0 1.5em;
   padding: 0.5em 10px;
   quotes: "\201C""\201D""\2018""\2019";
