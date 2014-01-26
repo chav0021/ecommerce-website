@@ -49,4 +49,5 @@ button {
 	box-shadow:none;
 	border: none;
 	outline:none;
+	cursor: pointer;
 }
