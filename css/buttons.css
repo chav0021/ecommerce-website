@@ -38,6 +38,7 @@ btn:focus {
 .btn-alt:hover,
 .btn-alt:active,
 .btn-alt:focus {
+	border-bottom: 0;
 	box-shadow: inset 0px 0px 0px 2em #333031;
 	color: #FFF;
 }
