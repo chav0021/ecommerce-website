@@ -1,0 +1,83 @@
+/*Colors:
+Body Black: #08060e
+Charcoal: #333031/181718
+Light Charcoal: #302f34
+Semi-transparent charcoal:  color: rgba(8, 6, 14, 0.3)
+Selection grey: rgba(181, 181, 181, 0.3)
+*/
+
+.product {
+	font-size:100%;
+	text-align:center;
+	width: 70%;
+	margin: 0 auto;
+	border: solid 1.2em #181718;
+	padding: 2em;
+	border-radius: 0px;
+	margin-bottom: 2em;
+}
+
+.product-small {
+	font-size: 80%;
+	width: 40%;
+	text-align:left;
+	border: solid 0.5em #181718;
+	padding: 1.5em;
+}
+
+.product-small p{
+	margin: 0;
+}
+
+.logo-bar {
+	height:38px;
+	width: 100%;
+	background-color:#181718;
+	background-image: url(../images/blac-logo.svg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 50% 50%;
+}
+
+.product-nav {
+	text-align:center;
+	margin-top: 2rem;
+}
+
+.product-nav li {
+	position:relative;
+}
+
+.product-nav li:first-child{
+	padding-right: 6rem;
+}
+
+.product-nav li:last-child{
+	padding-left: 6rem;
+}
+
+.arrow-left{
+	content:url(../images/arrow-left.svg);
+	position:absolute;
+	height:10px;
+	width: 10px;
+	left: 0rem;
+	top: 0.4rem;
+}
+
+.arrow-right{
+	content:url(../images/arrow-right.svg);
+	position:absolute;
+	height:10px;
+	width: 10px;
+	right: 0rem;
+	top: 0.4rem;
+}
+
+ul, menu, dir {
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 0px;
+}

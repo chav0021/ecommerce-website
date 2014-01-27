@@ -8,6 +8,13 @@ Semi-transparent charcoal:  color: rgba(8, 6, 14, 0.3)
 Selection grey: rgba(181, 181, 181, 0.3)
 */
 
+*,
+*:after,
+*:before {
+	margin:0;
+	padding: 0;
+}
+
 html {
    font: normal 110%/1.5 'Lato',serif; /* 16px/24px */
 	color: #08060e;
@@ -102,7 +109,8 @@ h1, h2, h3, h4, h5, h6,
 }
 
 a,
-a:link {
+a:link
+a:visited {
     text-decoration:none;
     color: #08060e;
     border-bottom: 0.1em solid rgba(8, 6, 14, 0.1);
@@ -111,7 +119,6 @@ a:link {
 
 a:hover,
 a:active,
-a:visited,
 a:focus {
    color: #08060e;
 	border-bottom: 0.13em solid rgba(8, 6, 14, 0.3);
@@ -123,6 +130,7 @@ ul {
 
 ul li {
     position: relative;
+	margin: 0 auto;
 }
 
 ul li:before {
@@ -237,11 +245,19 @@ cite {
 }
 
 .flex-img {
-	width: 100;
+	width: 100%;
 	display: block;
 	margin: 0 auto;
 }
 
 .space-none {
 	margin-bottom: 0;
+}
+
+.space-less {
+	margin-bottom: 0.5em;
+}
+
+.space-above {
+	margin-top: 1.5rem;
 }
