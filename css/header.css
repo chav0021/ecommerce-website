@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*Colors:
+Body Black: #08060e
+Charcoal: #333031/181718
+Light Charcoal: #302f34
+Semi-transparent charcoal:  color: rgba(8, 6, 14, 0.3)
+Selection grey: rgba(181, 181, 181, 0.3)
+*/
+
+header {
+	background-color: #181718;
+}
+
+.logo {
+	background-image:url(../images/albert-logo-01.svg);
+	background-repeat: no-repeat;
+	background-position: 4% center;
+	height: 2rem;
+}

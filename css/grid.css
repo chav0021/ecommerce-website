@@ -1,0 +1,67 @@
+/* CSS Document */
+
+.grid {
+	overflow:hidden;
+}
+
+.unit {
+	float:left;
+	overflow:hidden;
+}
+
+.unit-s-1 {
+	width: 100%;
+}
+
+.unit-s-1-2 {
+	width: 50%;
+}
+
+.unit-s-1-3 {
+	width: 33.333%;
+}
+
+.unit-s-2-3 {
+	width: 66.666%;
+}
+
+@media only screen and (min-width: 37em) {
+	
+	.unit-m-1 {
+		width: 100%;
+	}
+	
+	.unit-m-1-2 {
+		width: 50%;
+	}
+	
+	.unit-m-1-3 {
+		width: 33.333%;
+	}
+	
+	.unit-m-2-3 {
+		width: 66.666%;
+	}
+
+}
+
+@media only screen and (min-width: 50em) {
+	
+	.unit-l-1 {
+		width: 100%;
+	}
+	
+	.unit-l-1-2 {
+		width: 50%;
+	}
+	
+	.unit-l-1-3 {
+		width: 33.333%;
+	}
+	
+	.unit-l-2-3 {
+		width: 66.666%;
+	}
+
+}
+
