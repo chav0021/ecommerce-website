@@ -12,9 +12,20 @@ Selection grey: rgba(181, 181, 181, 0.3)
 footer {
 	color: #fff;
 	background-color: #181718;
+	text-align:center;
+	padding-top: 1em;
+}
+
+footer a {
+	color: #fff;
 }
 
 .facebook {
 	width: 1.5rem;
 	content:url(../images/facebook.svg);
+}
+
+.twitter {
+	width: 1.5rem;
+	content:url(../images/twitter.svg);
 }

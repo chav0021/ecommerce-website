@@ -40,11 +40,20 @@ Selection grey: rgba(181, 181, 181, 0.3)
 }
 
 .product-nav {
+	text-align:center;
 	margin-top: 2rem;
 }
 
 .product-nav li {
 	position:relative;
+}
+
+.product-nav li:first-child{
+	padding-right: 6rem;
+}
+
+.product-nav li:last-child{
+	padding-left: 6rem;
 }
 
 .arrow-left{
