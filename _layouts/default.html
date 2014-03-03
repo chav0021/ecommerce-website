@@ -1,17 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-ca">
 <head>
-    <meta charset="UTF-8">
-    <title>Eeshii The Free</title>
-    <link href="css/general.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Products</title>
+    <link href="http://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+    <link href="../css/typography.css" rel="stylesheet">
+    <link href="../css/list-group.css" rel="stylesheet">
+    <link href="../css/buttons.css" rel="stylesheet">
+    <link href="../css/media-object.css" rel="stylesheet">
+    <link href="../css/buckets.css" rel="stylesheet">
+	<link href="../css/product-details.css" rel="stylesheet">
+	<link href="../css/grid.css" rel="stylesheet">
+	<link href="../css/header.css" rel="stylesheet">
+	<link href="../css/footer.css" rel="stylesheet">
+	<link href="../css/forms.css" rel="stylesheet">
+	<link href="../css/general.css" rel="stylesheet">
+	<link href="../css/product-list.css" rel="stylesheet">
 </head>
     
 <body>
     
-	<p>Lots of glasses in the universe</p>
+	<header class="grid">
+		<div class="unit unit-s-1 unit-m-2-3 unit-l-2-3 logo">
+		</div>
+		<div class="unit search unit-s-1 unit-m-1-3 unit-l-1-3">
+			<input type=search name=s placeholder="Search"><i class="search-icon"></i>
+		</div>
+	</header>
 	
-    <img class="eeshii" src="images/eeshii.png" alt="Eeshii The Free">
-    <div class="logo-container"><img class="logo" src="images/logo.svg" alt="Eeshii The Free Logo"></div>
-    
+	<nav class="grid">
+		<ul>
+			<li class="unit unit-s-1 unit-m-1-2 unit-l-1-2"><a href="">Home</a></li>
+			<li class="unit unit-s-1 unit-m-1-2 unit-l-1-2"><a href="">About</a></li>
+		</ul>
+	</nav>
+		
+	{{content}}
+	
+	<footer class="grid">
+		<div class="unit unit-s-1 unit-m-1-3 unit-l-1-3">
+			<a class="milli">Terms</a>
+		</div>
+		<div class="unit unit-s-1 unit-m-1-3 unit-l-1-3 social">
+			<ul class="list-group">
+				<li class="lg-inline-item"><a href="#"><i class="facebook"></i></a></li>
+				<li class="lg-inline-item"><a href="#"><i class="twitter"></i></a></li>
+			</ul>
+		</div>
+		<div class="unit unit-s-1 unit-m-1-3 unit-l-1-3">
+			<p class="milli">Copyright information</p>
+		</div>
+	</footer>
+	
 </body>
 </html>

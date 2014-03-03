@@ -19,3 +19,18 @@ header {
 	background-position: 4% center;
 	height: 2rem;
 }
+
+nav {
+	border: solid 1px #181718;
+	height: 2.25em;
+	text-align:center;
+	padding-top: 0.5em;
+}
+
+nav ul li {
+	text-align:center;
+}
+
+nav ul li a {
+	color: #181718;
+}
