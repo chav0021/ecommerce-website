@@ -22,9 +22,10 @@ header {
 
 nav {
 	border: solid 1px #181718;
-	height: 2.25em;
+	overflow:hidden;
+	height: auto;
 	text-align:center;
-	padding-top: 0.5em;
+	padding: 0.5em;
 }
 
 nav ul li {
