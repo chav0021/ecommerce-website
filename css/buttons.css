@@ -26,7 +26,7 @@ Selection grey: rgba(181, 181, 181, 0.3)
 .btn:focus {
     box-shadow: inset 0px 0px 0px 2em #fff;
 	color: #333031;
-	border-bottom: 0;
+	border-bottom: none;
 }
 
 .btn-alt,
