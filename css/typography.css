@@ -318,6 +318,12 @@ cite {
 	margin: 0 auto;
 }
 
+.flex-img-small {
+	width: 30%;
+	display: block;
+	margin: 0 auto;
+}
+
 .space-none {
 	margin-bottom: 0;
 }
@@ -328,4 +334,17 @@ cite {
 
 .space-above {
 	margin-top: 1.5rem;
+}
+
+.home-content {
+	position:relative;
+	text-align:center;
+}
+
+.intro-content {
+	position:absolute;
+	bottom: 3em;
+	margin: 0 auto;
+	color: #fff;
+	z-index:900;
 }
