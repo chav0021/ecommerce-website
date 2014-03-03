@@ -18,15 +18,11 @@ Selection grey: rgba(181, 181, 181, 0.3)
 }
 
 .product-small {
-	font-size: 80%;
-	width: 40%;
-	text-align:left;
-	border: solid 0.5em #181718;
-	padding: 1.5em;
+	border-right: solid 1px black;
 }
 
-.product-small p{
-	margin: 0;
+.product-group .unit:last-child .product-small{
+	border-right: none;
 }
 
 .logo-bar {

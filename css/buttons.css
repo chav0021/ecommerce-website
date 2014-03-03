@@ -13,16 +13,17 @@ Selection grey: rgba(181, 181, 181, 0.3)
     background-color: #333031;
 	text-transform: uppercase;
     color: #fff;
-    padding: 0.5em 0.85em;
+    padding: 0.5em 0;
     border-radius: 1px;
-    border-bottom: 0;
+    border: 0;
 	-webkit-transition: all 400ms ease-in-out;
 	transition: all 400ms ease-in-out;
+	text-align:center;
 }
 
 .btn:hover,
 .btn:active,
-btn:focus {
+.btn:focus {
     box-shadow: inset 0px 0px 0px 2em #fff;
 	color: #333031;
 	border-bottom: 0;
