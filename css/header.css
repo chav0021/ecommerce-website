@@ -25,17 +25,20 @@ nav {
 	border: solid 1px #181718;
 	overflow:hidden;
 	height: auto;
-	text-align:center;	
+	text-align:center;
+	width:100%;
 }
 
 nav ul li {
 	text-align:center;
-	padding: 0.5em 0;
+	width: 50%;
 }
 
 nav ul li a {
 	color: #181718;
-	padding: 1.75em;
+	padding: 0.65em;
+	display:inline-block;
+	width: 100%;
 }
 
 .current {
