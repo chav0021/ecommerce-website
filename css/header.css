@@ -11,6 +11,7 @@ Selection grey: rgba(181, 181, 181, 0.3)
 
 header {
 	background-color: #181718;
+	border-bottom: solid 1px #181718;
 }
 
 .logo {
@@ -22,7 +23,6 @@ header {
 }
 
 nav {
-	border: solid 1px #181718;
 	overflow:hidden;
 	height: auto;
 	text-align:center;
@@ -39,6 +39,10 @@ nav ul li a {
 	padding: 0.65em;
 	display:inline-block;
 	width: 100%;
+}
+
+nav ul li a:hover {
+	background-color: rgba(8, 6, 14, 0.3);
 }
 
 .current {
