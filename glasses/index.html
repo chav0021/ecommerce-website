@@ -1,0 +1,20 @@
+---
+layout: default
+title: List of all the glasses
+showbanner: idemandit
+bannertext: About Albert
+meta: "The story behind Albert Opticians"
+
+---
+
+<div class="island-double grid">
+	<p class="unit unit-s-1 unit-m-1 unit-l-1 pad-top">List of all the glasses in our website.</p>
+</div>
+
+<ul>
+	{% for glasses in site.pages %}
+		{% if glasses.category == 'glasses' %}
+		<li>{{glasses.url}}</li>
+		{% endif %}
+	{% endfor %}
+</ul>
