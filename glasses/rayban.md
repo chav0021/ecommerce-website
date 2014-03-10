@@ -1,5 +1,10 @@
 ---
+layout: glasses
 category: glasses
+name: Rayban Wayfarers
+color: Black
+sex: Unisex
+image: glasses/glasses-side-2.jpg
 ---
 
 Wayfarers signify what the look of rock and roll is all about. Classically framed and completely iconic, this pair of sunglasses from Ray-Ban are lightweight, durable, and ready to exude some serious attitude.

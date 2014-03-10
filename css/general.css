@@ -1,2 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
+
+
+.max-height {
+	max-height: 80px;
+}

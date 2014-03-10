@@ -234,14 +234,14 @@ hr::after {
     height: 0;
 }
 
-dl {
-    margin-left:-1.25rem;
-}
-
 dt {
     margin: 0.8em 0 0 2.3rem;
     font-size: 0.8333rem;
     line-height: 1.3000;
+}
+
+dd {
+	margin-left: 2.2rem;
 }
 
 mark {

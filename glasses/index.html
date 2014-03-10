@@ -2,7 +2,7 @@
 layout: default
 title: List of all the glasses
 showbanner: idemandit
-bannertext: About Albert
+bannertext: Our Glasses
 meta: "The story behind Albert Opticians"
 
 ---
@@ -14,7 +14,12 @@ meta: "The story behind Albert Opticians"
 <ul>
 	{% for glasses in site.pages %}
 		{% if glasses.category == 'glasses' %}
-		<li>{{glasses.url}}</li>
+		<li>
+			<a href="{{site.baseurl}}{{glasses.url}}">
+				<img src="{{site.baseurl}}/images/{{glasses.image}}" alt="" class="max-height">
+				{{glasses.name}}
+			</a>
+		</li>
 		{% endif %}
 	{% endfor %}
 </ul>
