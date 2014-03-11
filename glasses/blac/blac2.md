@@ -1,6 +1,6 @@
 ---
 layout: glasses
-category: Blac
+category: blac
 name: Blac Thick Wayfarer
 color: Black
 sex: Male

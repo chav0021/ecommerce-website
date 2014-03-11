@@ -1,0 +1,27 @@
+---
+layout: default
+category: brand
+brand_name: Blac
+title: List of all the glasses
+showbanner: idemandit
+bannertext: Shop Our Glasses
+meta: "The story behind Albert Opticians"
+
+---
+
+<div class="island-double grid">
+	<p class="unit unit-s-1 unit-m-1 unit-l-1 pad-top">List of all the glasses in our website.</p>
+</div>
+
+<ul>
+	{% for glasses in site.pages %}
+		{% if glasses.category == 'blac' %}
+		<li>
+			<a href="{{site.baseurl}}{{glasses.url}}">
+				<img src="{{site.baseurl}}/images/{{glasses.image}}" alt="" class="max-height">
+				{{glasses.name}}
+			</a>
+		</li>
+		{% endif %}
+	{% endfor %}
+</ul>
