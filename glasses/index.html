@@ -12,7 +12,7 @@ meta: "Shop glasses Albert Opticians"
 	<ul>
 	{% for glasses in site.pages %}
 		{% if glasses.category == 'brand' %}
-		<li class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
+		<li class="unit-inline unit-s-1 unit-m-1-2 unit-l-1-3">
 			<a href="{{site.baseurl}}{{glasses.url}}">
 				<img src="{{site.baseurl}}/images/brand/{{glasses.brand_image}}" class="flex-img">
 				<p class="brand center-align giga pad-top">{{glasses.brand_name}}</p>
