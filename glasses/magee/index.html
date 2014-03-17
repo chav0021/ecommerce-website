@@ -10,19 +10,20 @@ brand_image: magee.jpg
 
 ---
 
-<div class="island-double grid">
-	<p class="unit unit-s-1 unit-m-1 unit-l-1 pad-top">List of all the glasses in our website.</p>
-</div>
+<a href="{{site.baseurl}}/glasses/" class="unit unit-s-1 unit-m-1 unit-l-1 nav-bar">< Back to Brands</a>
 
-<ul>
-	{% for glasses in site.pages %}
-		{% if glasses.category == 'magee' %}
-		<li>
-			<a href="{{site.baseurl}}{{glasses.url}}">
-				<img src="{{site.baseurl}}/images/{{glasses.image}}" alt="" class="max-height">
-				{{glasses.name}}
-			</a>
-		</li>
-		{% endif %}
-	{% endfor %}
-</ul>
+<div class="grid island">
+	<h2 class="pad-top">Magee</h2>
+	<ul>
+		{% for glasses in site.pages %}
+			{% if glasses.category == 'magee' %}
+			<li class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
+				<a href="{{site.baseurl}}{{glasses.url}}">
+					<img src="{{site.baseurl}}/images/{{glasses.image}}" alt="" class="max-height">
+					<p class="brand center-align giga pad-top">{{glasses.name}}</p>
+				</a>
+			</li>
+			{% endif %}
+		{% endfor %}
+	</ul>	
+</div>

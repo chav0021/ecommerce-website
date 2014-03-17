@@ -12,6 +12,9 @@ Selection grey: rgba(181, 181, 181, 0.3)
 header {
 	background-color: #181718;
 	border-bottom: solid 1px #181718;
+	position:fixed;
+	width:100%;
+	z-index:8000;
 }
 
 .logo {
@@ -19,34 +22,7 @@ header {
 	background-repeat: no-repeat;
 	background-position: 4% center;
 	background-size: contain;
-	height: 3rem;
-}
-
-nav {
-	overflow:hidden;
-	height: auto;
-	text-align:center;
-	width:100%;
-}
-
-nav ul li {
-	text-align:center;
-	width: 50%;
-}
-
-nav ul li a {
-	color: #181718;
-	padding: 0.65em;
-	display:inline-block;
-	width: 100%;
-}
-
-nav ul li a:hover {
-	background-color: rgba(8, 6, 14, 0.3);
-}
-
-.current {
-	background-color: rgba(8, 6, 14, 0.3);
+	height: 4rem;
 }
 
 .banner {
@@ -58,4 +34,58 @@ nav ul li a:hover {
 .banner h2 {
 	text-align:center;
 	color: #FFF;
+}
+
+.current {
+	background-color: rgba(8, 6, 14, 0.3);
+}
+
+nav {
+	width:100%;
+	position:fixed;
+	overflow:hidden;
+	height: auto;
+	text-align:center;
+	background-color:#303030;
+	top: 4rem;
+}
+
+nav ul li {
+	position:relative;
+	top: 0rem;
+}
+
+.nav-btn,
+.nav-btn:link,
+.nav-btn:visited{
+	color:#fff;
+	line-height:4rem;
+	text-align:center;
+	text-indent: -10%;
+	display: block;
+	height: 4rem;
+	width: 33.33%;
+	background: transparent url("../images/nav-icon.svg") no-repeat left center;
+}
+
+nav a, 
+nav a:link,
+nav a:visited{
+	display: block;
+	text-align:center;
+	text-decoration: none;
+    color: #fff;
+	padding: 1rem;
+}
+
+/*Toggle Nav*/
+
+.nav-top {
+    max-height: 0;
+    -webkit-transition: max-height 250ms linear;
+}
+
+.nav-top[data-state="expanded"]{
+    max-height: 25em;
+    height: auto;
 }

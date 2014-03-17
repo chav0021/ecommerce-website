@@ -1,7 +1,7 @@
 ---
 layout: glasses
 category: blac
-name: Blac Thick Wayfarer
+name: Thick Wayfarer
 color: Black
 sex: Male
 image: glasses/blac1.jpg

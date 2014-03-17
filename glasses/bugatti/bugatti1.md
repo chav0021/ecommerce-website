@@ -1,7 +1,7 @@
 ---
 layout: glasses
 category: bugatti
-name: High Bridge Bugatti
+name: High Bridge
 color: Black
 sex: Male
 image: glasses/bugatti1.jpg
