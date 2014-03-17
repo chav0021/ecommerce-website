@@ -51,6 +51,10 @@ nav {
 	top: 4rem;
 }
 
+nav ul {
+	width: 100%;
+}
+
 nav ul li {
 	position:relative;
 	top: 0rem;
