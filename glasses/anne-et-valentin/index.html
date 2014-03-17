@@ -6,6 +6,7 @@ title: List of all the glasses
 showbanner: idemandit
 bannertext: Shop Our Glasses
 meta: "The story behind Albert Opticians"
+brand_image: anneetvalentin.jpg
 
 ---
 
@@ -16,10 +17,10 @@ meta: "The story behind Albert Opticians"
 <ul>
 	{% for glasses in site.pages %}
 		{% if glasses.category == 'anne-et-valentin' %}
-		<li>
+		<li class="grid">
 			<a href="{{site.baseurl}}{{glasses.url}}">
-				<img src="{{site.baseurl}}/images/{{glasses.image}}" alt="" class="max-height">
-				{{glasses.name}}
+				<img src="{{site.baseurl}}/images/{{glasses.image}}" alt="" class="max-height" class="unit unit-s-1 unit-m-1-2 unit-l-1-2">
+				<h3 class="unit unit-s-1 unit-m-1-2 unit-l-1-2">{{glasses.name}}</h3>
 			</a>
 		</li>
 		{% endif %}

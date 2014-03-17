@@ -6,13 +6,16 @@ layout: default
 
 <h1>{{page.name}}</h1>
 
-<dl>
-	<dt>Name</dt>
-	<dd>{{page.name}}</dd>
-	<dt>Sex</dt>
-	<dd>{{page.sex}}</dd>
-	<dt>Color</dt>
-	<dd>{{page.color}}</dd>
-</dl>
-
-{{content}}
+<div class="grid">
+	<dl class="unit unit-s-1 unit-m-1 unit-l-1">
+		<dt>Name</dt>
+		<dd>{{page.name}}</dd>
+		<dt>Sex</dt>
+		<dd>{{page.sex}}</dd>
+		<dt>Color</dt>
+		<dd>{{page.color}}</dd>
+	</dl>
+	<div class="unit unit-s-1 unit-m-1 unit-l-1">
+		{{content}}
+	</div>
+</div>

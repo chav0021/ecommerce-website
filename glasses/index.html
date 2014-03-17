@@ -3,18 +3,19 @@ layout: default
 title: Shop
 showbanner: idemandit
 bannertext: Shop Our Glasses
-meta: "The story behind Albert Opticians"
+meta: "Shop glasses Albert Opticians"
 
 ---
 
 <div class="island-double grid">
-	<p class="unit unit-s-1 unit-m-1 unit-l-1 pad-top">Shop by brands</p>
+	<h2 class="unit unit-s-1 unit-m-1 unit-l-1 pad-top">Shop by brands</h2>
 	<ul>
 	{% for glasses in site.pages %}
 		{% if glasses.category == 'brand' %}
-		<li>
+		<li class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
 			<a href="{{site.baseurl}}{{glasses.url}}">
-				{{glasses.brand_name}}
+				<img src="{{site.baseurl}}/images/brand/{{glasses.brand_image}}" class="brand-img">
+				<p class="brand center-align giga">{{glasses.brand_name}}</p>
 			</a>
 		</li>
 		{% endif %}
