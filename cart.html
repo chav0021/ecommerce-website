@@ -1,0 +1,28 @@
+---
+layout: default
+title: Shopping Cart
+meta: "your shopping cart contents"
+showbanner: yes
+bannertext: Shopping Cart
+---
+<div class="island-double">
+	
+<div class="grid">
+	<p class="unit unit-s-1 unit-m-1 unit-l-1 pad-top fancy-big">These are the contents of your cart: </p>
+</div>
+
+<div class="grid product-group">
+	<div class="unit unit-s-1 unit-m-1-3 unit-l-1-3 pad-bottom">
+		{% include item-cart.html prodtitle="Ray Ban Wayfarers" desc="These glasses are awesome and quite wonderful." image="images/glasses-main.jpg"%}
+	</div>
+	<div class="unit unit-s-1 unit-m-1-3 unit-l-1-3 pad-bottom">
+		{% include item-cart.html prodtitle="Nyko Badassery" desc="These glasses are awesome and quite wonderful." image="images/glasses/glasses2.jpg"%}
+	</div>
+	<div class="unit unit-s-1 unit-m-1-3 unit-l-1-3 pad-bottom">
+		{% include item-cart.html prodtitle="Fancy Red" desc="These glasses are awesome and quite wonderful." image="images/glasses/glasses1.jpg"%}
+	</div>
+</div>
+	
+<a class="btn unit unit-s-1 unit-m-1 unit-l-1" href="{{site.baseurl}}/thank-you/">Checkout</a>
+
+</div>
