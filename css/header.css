@@ -18,11 +18,18 @@ header {
 }
 
 .logo {
-	background-image:url(../images/albert-logo-01.svg);
-	background-repeat: no-repeat;
-	background-position: 4% center;
-	background-size: contain;
-	height: 4rem;
+	color: #fff;
+	margin-left: 1rem;
+	margin-top: .65rem;
+	float: left;
+}
+
+.shopping-cart {
+	height: 2.5rem;
+}
+
+.right-align {
+	float: right;
 }
 
 .banner {
