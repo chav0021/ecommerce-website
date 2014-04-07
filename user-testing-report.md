@@ -24,19 +24,11 @@ User testing was conducted by Daniela Chavez on Mon March 24th between the times
 
 ### Chelsey Frohlick
 
-- {He clicked on the link as expected…}
-- {He had troubles completing a specific task…}
-- {He asked these questions…}
-- {Fill in any observations that were important/relevant…}
-- etc.
+- Completed tasks as expected
 
 ### Evan Grice
 
-- {She clicked on the link as expected…}
-- {He had troubles completing a specific task…}
-- {She asked these questions…}
-- {Fill in any observations that were important/relevant…}
-- etc.
+- Completed tasks as expected
 
 ---
 
@@ -44,15 +36,12 @@ User testing was conducted by Daniela Chavez on Mon March 24th between the times
 
 ### Critical, Needs Fixing, Unable to Complete
 
-- Links weren't linking to correct frame
-- Some brands displayed on homepage were not the same 
+- Fix homepage links so they lead where they say they're leading
 
 ### Serious, Causes Frustration, May Hinder Completion
 
-- {Two of the participants succeeded where one of them failed…}
-- etc.
+- Search doesn't give actual resuts.
 
 ### Minor, Annoying, Won’t Hinder Completion
 
-- {Participants pointed out this inconsistency…}
-- etc.
+- Change "I must have it" to "add to cart"
