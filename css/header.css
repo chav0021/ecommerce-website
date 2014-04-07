@@ -96,12 +96,23 @@ nav a:visited{
 /*Toggle Nav*/
 
 .nav-top {
-    max-height: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
     -webkit-transition: max-height 250ms linear;
 }
 
 .nav-top[data-state="expanded"]{
-    max-height: 25em;
+    clip: auto;
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
     height: auto;
 	z-index:9000;
+	
 }

@@ -198,7 +198,18 @@ a:hover,
 a:active,
 a:focus {
   	color: #08060e;
+	outline: 1px solid white;
 }
+
+a:hover,
+a:active {
+	outline: none;
+}
+
+a:focus {
+	outline: 2px solid #04dbe3;
+}
+
 
 ul {
     list-style-type:none;
